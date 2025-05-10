@@ -1,0 +1,42 @@
+{
+  "name": "miside-main-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "build": {
+    "extraResources": [
+      {
+        "from": "data.json",
+        "to": "data.json"
+      }
+    ],
+    "appId": "com.misidemainmenu.app",
+    "productName": "MiSide Desktop Main Menu",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "assets/img/mita.ico",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}

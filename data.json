@@ -1,0 +1,35 @@
+{
+  "author": "admin",
+  "apps": {
+    "path": "",
+    "items": []
+  },
+  "desktop": {
+    "path": "",
+    "items": {}
+  },
+  "control": {
+    "musicVolume": 50,
+    "sfxVolume": 50,
+    "playOption": "QUEUE",
+    "disableMusic": false
+  },
+  "musics": {
+    "path": "",
+    "items": []
+  },
+  "browserShortcut": [
+    {
+      "name": "Google Drive",
+      "link": "https://drive.google.com/drive/my-drive?hl=id"
+    },
+    {
+      "name": "ChatGPT",
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "name": "Youtube",
+      "link": "https://www.youtube.com/"
+    }
+  ]
+}
