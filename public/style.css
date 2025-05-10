@@ -460,7 +460,7 @@ textarea::-webkit-scrollbar-corner {
 
 /* RESPONSIVE BREAKPOINTS */
 
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .content {
     font-size: 1.9em;
     width: 18em;

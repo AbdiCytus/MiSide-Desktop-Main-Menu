@@ -1032,7 +1032,7 @@ async function loadData() {
 
   //Menghandle track untuk pemutaran musik selanjutnya
   function handleTrack(elements, items, trackIndex) {
-    const responsive = window.innerWidth >= 1200;
+    const responsive = window.innerWidth >= 1920;
     const totalMusic = musicItems.length;
     const totalElement = elements.length;
     const musicOverload = totalMusic > maxMusicPerPage;

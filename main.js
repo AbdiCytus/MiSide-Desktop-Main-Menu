@@ -19,7 +19,7 @@ const path = require("path");
 // const jsonFile = path.join(process.resourcesPath, "./data.json"); Pengambilan data saat siap dibuild
 
 //Baca data dari file json
-const jsonFile = "./data.json";
+const jsonFile = path.join(process.resourcesPath, "./data.json");
 const readData = fs.readFileSync(jsonFile, "utf8");
 let dataJSON = JSON.parse(readData);
 
